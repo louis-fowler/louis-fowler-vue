@@ -4,9 +4,7 @@
       <h2>Full stack web developer residing in Auckland, New Zealand</h2>
     </div>
     <h2 class="titleText">Experience in</h2>
-    <div class="displayCards">
-      <LangCard />
-    </div>
+    <LangCard />
     <h2 class="titleText">Current Projects</h2>
     <div class="displayCards">
       <ProjectCard />
@@ -46,65 +44,3 @@ export default {
   }
 };
 </script>
-
-<style lang="scss" scoped>
-.mainContainer {
-  width: 90%;
-  margin: 0 auto;
-  grid-area: mainContainer;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-.mainContainer h1 {
-  font-size: calc(10px + 6vmin);
-  font-weight: 200;
-}
-
-.titleContainer {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding-top: 3vh;
-}
-
-.titleContainer > * {
-  font-weight: 500;
-  font-size: calc(5px + 3vmin);
-}
-
-.titleText {
-  padding-top: 3vh;
-  padding-bottom: 1vh;
-  font-size: calc(15px + 3vmin);
-  font-weight: 400;
-  border-bottom: 1px solid #ffcaa2;
-}
-
-.displayCards {
-  width: 90%;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
-  flex-wrap: wrap;
-}
-
-.projectCards {
-  width: 90%;
-  display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
-  align-items: center;
-}
-
-.contactContainer h3 {
-  font-weight: 200;
-  font-size: calc(12px + 2vmin);
-}
-
-.linksContainer a {
-  margin: 10px;
-  font-size: 40px;
-}
-</style>

@@ -10,7 +10,6 @@
 import FooterComp from "./components/FooterComp/FooterComp";
 import HeaderComp from "./components/HeaderComp/HeaderComp";
 import MainContent from "./components/MainContent/MainContent";
-
 export default {
   name: "App",
   components: {
